@@ -1,2 +1,29 @@
-# responsible-ai-compliance-portfolio
-End-to-end AI Governance and Compliance framework for high-risk Generative AI systems. Aligned with ISO/IEC 42001 and the EU AI Act.
+# Enterprise AI Governance Framework: Aura-Gen Case Study
+
+Welcome to the Aura-Gen AI Governance Repository. This project demonstrates an end-to-end implementation of AI governance and compliance for a high-risk Generative AI system, aligned with ISO/IEC 42001 and the EU AI Act.
+
+## Portfolio Oversight Dashboard
+| Metric | Status | Notes |
+| :--- | :--- | :--- |
+| System Classification | High-Risk | Annex III: Financial & Essential Services |
+| Inventory Status | Completed | Fully documented in Phase 0 |
+| Risk Assessment | In Progress | Hallucination & Data Privacy deep-dives |
+| Human Oversight | Semi-Automated | Escalation thresholds defined |
+| Compliance Alignment | EU AI Act | High-risk obligations identified |
+
+## Repository Structure
+This portfolio is organized by the AI Lifecycle to demonstrate professional subject matter expertise.
+
+* [Phase 0: Strategy & Inventory](./00_Strategy_Inventory/) - 30-60-90 Day Plan, System Inventory, and Governance Charter.
+* [Phase 1: Risk & Impact](./01_Risk_Impact/) - EU AI Act Triage, LLM Risk Assessments, and Threat Modeling.
+* [Phase 2: Technical Audit](./02_Technical_Audit/) - Bias Testing, Output Verification, and Failure Pattern Analysis.
+* [Phase 3: Operational Monitoring](./03_Monitoring_Response/) - KPI Framework, Incident Playbooks, and Board Reporting.
+
+## Case Study: Aura-Gen Customer Assistant
+Aura-Gen is a self-hosted, open-source Generative AI system designed to assist with customer support and refund processing. 
+
+### Why this project?
+This case study was chosen to demonstrate the ability to govern a High-Risk AI system that involves:
+1. Financial Impact: Automated decision support for refund eligibility.
+2. Sensitive Data: Handling customer records using internal-only datasets.
+3. Complex Risks: Managing LLM-specific failures like hallucinations and prompt injection.
